@@ -96,11 +96,11 @@ divList[5].addEventListener("click", function (event) {
                 flag = false
             }
         }
-    }
-    if (flag) {
-        alert("提交成功")
-    } else {
-        alert("提交失败")
+        if (flag) {
+            alert("提交成功")
+        } else {
+            alert("提交失败")
+        }
     }
 })
 
