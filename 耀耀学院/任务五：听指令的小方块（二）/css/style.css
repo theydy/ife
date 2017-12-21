@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.map {
+    padding: 20px;
+}
+
+table{
+    border-collapse:collapse;
+    position: relative;
+}
+
+td{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid gray;
+}
+
+.border-none {
+    border-style: none;
+}
+
+.border-left-back {
+    border-left-color: black;
+}
+
+.border-top-back {
+    border-top-color: black;
+}
+
+.border-right-back {
+    border-right-color: black;
+}
+
+.border-bottom-back {
+    border-bottom-color: black;
+}
+
+p {
+    margin-left: 50px;
+}
+
+ol {
+    margin: 20px 0 0 80px;
+}
+
+.box {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 241px;
+    left: 281px;
+    background-color: red;
+    transition: transform 1s,top 1s,left 1s;
+}
+
+.box-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+}
+
+.box-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+
+.box-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+}
+
+.box-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+.console {
+    position: absolute;
+    top: 175px;
+    left: 447px;
+}
