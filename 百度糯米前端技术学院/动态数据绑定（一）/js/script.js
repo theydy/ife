@@ -24,7 +24,8 @@ let Observer = class {
         return new Observer(val)
     }
     convert (obj, key, value) {
-        let childOb = this.observer(value)
+        let self = this
+        self.observer(value)
         Object.defineProperty(obj, key, {
             enumerable: true,
             configurable: true,
@@ -37,6 +38,9 @@ let Observer = class {
                     return
                 }
                 value = newVal
+                if (typeof value === 'object') {
+                    self.observer(value)
+                }
                 log('你设置了' + key + ', 新的值为' + newVal)
                 return newVal
             }
