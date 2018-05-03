@@ -119,16 +119,16 @@ body {
 
 .bottom-victips {
     position: absolute;
-    top: 260px;
-    right: 90px;
+    top: 270px;
+    right: 86px;
     color: #cc8091;
     font-size: 21px;
 }
 
 .bottom-tips {
     position: absolute;
-    top: 283px;
-    right: 34px;
+    top: 297px;
+    right: 24px;
     color: #676767;
     font-size: 12px;
 }
@@ -250,7 +250,6 @@ body {
 
 .bottom-content-1 span:nth-child(1){
     display: inline-block;
-    font-size: 72px;
     color: #f5e327;
     font-weight: bold;
     transform: skew(-10deg);
@@ -396,7 +395,7 @@ body {
 .number-eng-3 {
     position: absolute;
     left: 85px;
-    top: 92px;
+    top: 120px;
     font-size: 13px;
     font-family: "黑体";
     color: white;
@@ -431,9 +430,9 @@ body {
 
 .bottom-right-data {
     position: absolute;
-    bottom: 38px;
+    bottom: 15px;
     right: 0;
-    width: 187px;
+    width: 180px;
 }
 
 .bottom-right-data p {
@@ -447,7 +446,7 @@ body {
 
 .comma-1 {
     position: absolute;
-    left: 237px;
+    left: 263px;
     bottom: 70px;
     font-size: 72px;
     color: #d45d5c;
@@ -456,8 +455,8 @@ body {
 
 .comma-2 {
     position: absolute;
-    right: -20px;
-    bottom: -25px;
+    right: 2px;
+    bottom: -56px;
     font-size: 72px;
     color: #d45d5c;
     font-family: "黑体";
